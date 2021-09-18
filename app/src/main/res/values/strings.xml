@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Dialogs</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirmed">You clicked Confirm</string>
+    <string name="typeMessage">Type Your Text Here</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="enterText">  Enter your text here</string>
+    <string name="btnCustom">Submit</string>
+    <string name="x">x</string>
+    <string name="bottomMessage">You have clicked Bottom Dialog Box</string>
+    <string name="btnClose">Close</string>
+
+    <string name="simple_dialog">Simple Dialog</string>
+    <string name="dialog_with_button">Dialog with Button</string>
+    <string name="single_choice">Single Choice</string>
+    <string name="multi_choice">Multi Choice</string>
+    <string name="circularProgress">Circular Progress</string>
+    <string name="datePicker">Date Picker</string>
+    <string name="timePicker">Time Picker</string>
+    <string name="bottomDialog">Bottom Dialog</string>
+    <string name="customDialog">Custom Dialog Box</string>
+
+
+    <string name="simpleMessage">You CLicked Simple Dialog</string>
+    <string name="dialog_buttonMessage">You CLicked Dialog with Button</string>
+    <string name="singleMessage">Select Any One</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

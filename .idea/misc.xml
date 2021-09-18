@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_Projects/Dialoges/app/src/main/res/drawable/black_rectangle.xml" value="0.2703125" />
+        <entry key="..\:/Android_Projects/Dialoges/app/src/main/res/drawable/bottom_dialog.xml" value="0.2703125" />
+        <entry key="..\:/Android_Projects/Dialoges/app/src/main/res/drawable/my_design_border.xml" value="0.14629629629629629" />
+        <entry key="..\:/Android_Projects/Dialoges/app/src/main/res/drawable/my_design_border_clear.xml" value="0.14629629629629629" />
+        <entry key="..\:/Android_Projects/Dialoges/app/src/main/res/drawable/my_design_radius.xml" value="0.14629629629629629" />
+        <entry key="..\:/Android_Projects/Dialoges/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Android_Projects/Dialoges/app/src/main/res/layout/bottom_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/Dialoges/app/src/main/res/layout/custom_dialog.xml" value="0.176" />
+        <entry key="..\:/Android_Projects/Dialoges/app/src/main/res/layout/custom_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/Dialoges/app/src/main/res/layout/layout1.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
