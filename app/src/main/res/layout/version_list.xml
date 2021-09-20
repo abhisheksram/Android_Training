@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+       >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+
+    <TextView
+        android:id="@+id/lblVer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"
+        android:background="@drawable/my_design_border_clear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="@string/name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/lblVersion"
+        app:layout_constraintStart_toEndOf="@+id/lblVer"
+        app:layout_constraintTop_toTopOf="@+id/lblVer" />
+
+        <TextView
+            android:id="@+id/lblVersion"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/version"
+            android:textColor="@color/teal_200"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toTopOf="@+id/lblSDK"
+            app:layout_constraintStart_toEndOf="@+id/lblVer"
+            app:layout_constraintTop_toBottomOf="@+id/lblName"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/lblSDK"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/sdk"
+            android:textColor="@color/teal_200"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/lblDesc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/lblVer"
+            app:layout_constraintTop_toBottomOf="@+id/lblVersion"
+            tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/lblDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/description"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/lblVer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/lblVer"
+        app:layout_constraintTop_toBottomOf="@+id/lblSDK" />
+
+        <TextView
+            android:id="@+id/lblDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="@string/date"
+            android:textColor="@color/purple_200"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lblName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/lblName"
+            app:layout_constraintTop_toTopOf="@+id/lblVer"
+            tools:ignore="TextContrastCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>

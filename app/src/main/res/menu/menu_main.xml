@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android_task2_2.MainActivity">
+
+    <item
+        android:id="@+id/action_widget"
+        android:orderInCategory="100"
+        android:title="Widget"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_RecyclerView"
+        android:orderInCategory="100"
+        android:title="Recycler View"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_ListView"
+        android:orderInCategory="100"
+        android:title="List View"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_CustomListView"
+        android:orderInCategory="100"
+        android:title="Custom List View"
+        app:showAsAction="never" />
+
+</menu>
