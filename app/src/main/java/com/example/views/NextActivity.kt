@@ -28,7 +28,7 @@ class NextActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_widget -> {
-                val iMA = Intent(this, NextActivity::class.java)
+                val iMA = Intent(this, WidgetActivity::class.java)
                 iMA.putExtra("Title", "Widget")
                 startActivity(iMA)
                 finish()
@@ -40,7 +40,7 @@ class NextActivity : AppCompatActivity() {
                 finish()
             }
             R.id.action_ListView -> {
-                val iMA = Intent(this, NextActivity::class.java)
+                val iMA = Intent(this, ListActivity::class.java)
                 iMA.putExtra("Title", "List View")
                 startActivity(iMA)
                 finish()

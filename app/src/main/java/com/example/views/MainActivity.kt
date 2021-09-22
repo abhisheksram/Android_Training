@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity() {
         )
 
         androidList.add(MyData(
-                "L", "Lollypop", "Version: 5.0", "November 4, 2014", "SDK: 21",
+                "L", "Lollipop", "Version: 5.0", "November 4, 2014", "SDK: 21",
                 "This version of Android offered a redesigned UI and it also replaced Dalvik with ART or " +
                         "Android Runtime to improve application performance and battery optimization."
             )
@@ -147,7 +147,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_widget -> {
-                val iMA = Intent(this, NextActivity::class.java)
+                val iMA = Intent(this, WidgetActivity::class.java)
                 iMA.putExtra("Title", "Widget")
                 startActivity(iMA)
                 finish()
@@ -159,7 +159,7 @@ class MainActivity : AppCompatActivity() {
                 finish()
             }
             R.id.action_ListView -> {
-                val iMA = Intent(this, NextActivity::class.java)
+                val iMA = Intent(this, ListActivity::class.java)
                 iMA.putExtra("Title", "List View")
                 startActivity(iMA)
                 finish()
