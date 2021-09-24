@@ -23,6 +23,8 @@ class WidgetActivity : AppCompatActivity() {
         val radioButton2 = findViewById<RadioButton>(R.id.rb2)
         val radioButton3 = findViewById<RadioButton>(R.id.rb3)
 
+        val actionBar = supportActionBar!!
+        actionBar.title = "Widgets"
 
         btn1.setOnClickListener { // Handler code here.
             val parentLayout = findViewById<View>(android.R.id.content)

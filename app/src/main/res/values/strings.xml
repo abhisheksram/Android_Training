@@ -43,4 +43,11 @@
     <string name="confirm_new_password">Confirm New Password</string>
     <string name="update">Update Password</string>
 
+    <string name="send_to_fragment_one">Finish</string>
+    <string name="send_to_fragment_two">Send to Fragment Two</string>
+    <string name="send_to_fragment_three">Send to Fragment Three</string>
+    <string name="from_fragment_one">From Fragment One</string>
+    <string name="from_fragment_two">From Fragment Two</string>
+    <string name="delete">Delete</string>
+
 </resources>

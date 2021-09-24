@@ -9,6 +9,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.fragment.app.FragmentManager
+import androidx.navigation.NavController
+import androidx.navigation.Navigation
 
 
 class SignUpFragment : Fragment(R.layout.fragment_sign_up) {
@@ -21,7 +23,8 @@ class SignUpFragment : Fragment(R.layout.fragment_sign_up) {
         val btnSignUp = view.findViewById<Button>(R.id.btnSignUp)
         val btnGoToLogin = view.findViewById<Button>(R.id.btnGoToLogin)
 
-        val sharedPreferences: SharedPreferences? = context?.getSharedPreferences("myData", Context.MODE_PRIVATE)
+        val sharedPreferences: SharedPreferences? = context?.getSharedPreferences(Constants.SharedPref.myData, Context.MODE_PRIVATE)
+
         val editor: SharedPreferences.Editor? = sharedPreferences?.edit()
 
         btnSignUp.setOnClickListener {
@@ -47,20 +50,19 @@ class SignUpFragment : Fragment(R.layout.fragment_sign_up) {
                         Toast.makeText(this.context,
                             "$userName is added successfully",
                             Toast.LENGTH_SHORT).show()
-                        val supportFragmentManager: FragmentManager = parentFragmentManager
-                        supportFragmentManager.beginTransaction()
-                            .replace(R.id.containerView, LoginFragment())
-                            .commit()
+
+                        val navController: NavController = Navigation.findNavController(view)
+                        navController.navigate(R.id.action_signUPFragment_to_loginFragment)
+                        navController.popBackStack()
 
                     }
         }
 
         btnGoToLogin.setOnClickListener {
 
-            val supportFragmentManager: FragmentManager = parentFragmentManager
-            supportFragmentManager.beginTransaction().replace(R.id.containerView, LoginFragment())
-                .commit()
-
+            val navController: NavController = Navigation.findNavController(view)
+            navController.navigate(R.id.action_signUPFragment_to_loginFragment)
+            navController.popBackStack()
         }
     }
 }

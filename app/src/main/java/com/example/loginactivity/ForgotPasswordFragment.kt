@@ -8,7 +8,8 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import androidx.fragment.app.FragmentManager
+import androidx.navigation.NavController
+import androidx.navigation.Navigation
 
 
 class ForgotPasswordFragment : Fragment(R.layout.fragment_forgot_password) {
@@ -47,10 +48,10 @@ class ForgotPasswordFragment : Fragment(R.layout.fragment_forgot_password) {
                         Toast.makeText(this.context,
                             "$userName is updated successfully",
                             Toast.LENGTH_SHORT).show()
-                        val supportFragmentManager: FragmentManager = parentFragmentManager
-                        supportFragmentManager.beginTransaction()
-                            .replace(R.id.containerView, LoginFragment())
-                            .commit()
+
+                        val navController: NavController = Navigation.findNavController(view)
+                        navController.navigate(R.id.action_forgotPasswordFragment_to_loginFragment)
+                        navController.popBackStack()
 
                     }
         }
