@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Recycler View with Button</string>
+    <string name="name">Version Name</string>
+    <string name="version">Version</string>
+    <string name="sdk">Minimum SDK</string>
+    <string name="date">Release Date</string>
+    <string name="delete">Delete</string>
+    <string name="released_date">Released Date</string>
+    <string name="description">Description</string>
+    <string name="btnAdd">Add Data</string>
+    <string name="floatingAdd">Add new</string>
+</resources>

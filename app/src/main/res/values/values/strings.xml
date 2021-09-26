@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Recycler View</string>
+    <string name="name">Name</string>
+    <string name="version">Version</string>
+    <string name="sdk">SDK</string>
+    <string name="description">Description</string>
+    <string name="date">Release Date</string>
+</resources>
