@@ -18,6 +18,7 @@
             android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
             app:destination="@id/forgotPasswordFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/signUPFragment"
         android:name="com.example.loginactivity.SignUpFragment"

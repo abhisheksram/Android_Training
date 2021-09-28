@@ -43,7 +43,7 @@ class SignUpFragment : Fragment(R.layout.fragment_sign_up) {
                     if (!sharedPreferences?.getString("UserName$userName", "").isNullOrEmpty()
                     ) {
                         Toast.makeText(context, "User is already Registered", Toast.LENGTH_SHORT)
-                            .show(); } else {
+                            .show() } else {
 
                         editor?.putString("UserName$userName", userName.toString())?.apply()
                         editor?.putString("Password$password", password.toString())?.apply()
