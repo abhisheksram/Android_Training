@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Fragments</string>
     <string name="open_activity_for_result">Open Activity For Result</string>
@@ -10,8 +11,9 @@
     <string name="fragment_two">Fragment Two</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="send_to_fragment_one">Send to Fragment One</string>
+    <string name="send_to_fragment_one">Finish</string>
     <string name="send_to_fragment_two">Send to Fragment Two</string>
+    <string name="send_to_fragment_three">Send to Fragment Three</string>
 
     <string name="login">Login</string>
     <string name="forgot_password">Forgot Password?</string>
@@ -23,4 +25,12 @@
     <string name="don_t_have_an_account">Don\'t Have an Account? </string>
     <string name="confirm_password">Confirm Password</string>
     <string name="already_have_an_account">Already Have an Account?</string>
+    <string name="from_fragment_one">From Fragment One</string>
+    <string name="from_fragment_two">From Fragment Two</string>
+
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_profile">Profile</string>
 </resources>
