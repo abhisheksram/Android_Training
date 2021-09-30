@@ -10,10 +10,10 @@
     <string name="replace">Replace</string>
     <string name="fragment_two">Fragment Two</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="send_to_fragment_one">Finish</string>
     <string name="send_to_fragment_two">Send to Fragment Two</string>
     <string name="send_to_fragment_three">Send to Fragment Three</string>
+    <string name="send_to_fragment_one">Send to Fragment One</string>
+    <string name="finish">Finish</string>
 
     <string name="login">Login</string>
     <string name="forgot_password">Forgot Password?</string>
@@ -33,4 +33,14 @@
     <string name="title_search">Search</string>
     <string name="title_orders">Orders</string>
     <string name="title_profile">Profile</string>
+    <string name="chats">Chats</string>
+    <string name="status">Status</string>
+    <string name="calls">Calls</string>
+    <string name="chats_fragment_is_selected">Chats Fragment is selected</string>
+    <string name="calls_fragment_is_selected">Calls Fragment is selected</string>
+    <string name="status_fragment_is_selected">Status Fragment is selected</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fragment">Fragment One</string>
 </resources>
