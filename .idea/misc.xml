@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/drawable-v24/circle.xml" value="0.2703125" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/drawable-v24/ic_home_black_24dp.xml" value="0.11481481481481481" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/drawable-v24/my_button_border.xml" value="0.14270833333333333" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/drawable-v24/my_design_border.xml" value="0.14635416666666667" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/drawable-v24/my_design_border_clear.xml" value="0.1111111111111111" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/drawable-v24/my_design_radius.xml" value="0.1111111111111111" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/drawable-v24/rectangle_border.xml" value="0.1111111111111111" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.14270833333333333" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.12037037037037036" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/drawable/my_button_border.xml" value="0.14270833333333333" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/drawable/my_edit_border.xml" value="0.14635416666666667" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout-v26/activity_widget.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activity_auth.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activity_dialogs.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activity_dogs.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activity_dogs_rvactivity.xml" value="0.2520833333333333" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activity_grid.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activity_list.xml" value="0.8928571428571429" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activity_map.xml" value="0.1265625" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activity_maps.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activity_next.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activity_post_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activity_posts.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activity_widget.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/activitywidgets.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/bottom_dialog.xml" value="0.4" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/custom_add.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/custom_grid.xml" value="0.1" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/custom_posts.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/custom_progress.xml" value="0.11927083333333334" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/fragment_forgot_password.xml" value="0.3946078431372549" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/fragment_login.xml" value="0.1265625" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/fragment_sign_up.xml" value="0.4" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/fragment_slide.xml" value="0.4" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/item_dogs.xml" value="0.4" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/item_post_comments.xml" value="0.4" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/item_posts.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/layout/version_list.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/menu/menu_bottom_nav.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android_Projects/AndroidTraining/app/src/main/res/menu/menu_main.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
