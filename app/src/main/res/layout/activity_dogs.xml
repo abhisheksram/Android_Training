@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/d5"
+    tools:context=".presentation.DogsActivity">
+
+    <ImageView
+        android:id="@+id/imageDog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/d5"
+        android:layout_marginStart="5dp"
+        android:contentDescription="@string/dog_breed"
+        app:layout_constraintBottom_toTopOf="@+id/imageDog3"
+        app:layout_constraintEnd_toStartOf="@+id/imageDog2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageDog2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/d5"
+        android:layout_marginEnd="5dp"
+        android:contentDescription="@string/dog_breed"
+        app:layout_constraintBottom_toTopOf="@+id/imageDog4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageDog1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageDog3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/d5"
+        android:layout_marginStart="5dp"
+        android:contentDescription="@string/dog_breed"
+        app:layout_constraintBottom_toTopOf="@+id/imageDog5"
+        app:layout_constraintEnd_toStartOf="@+id/imageDog4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageDog1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageDog4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/d5"
+        android:layout_marginEnd="5dp"
+        android:contentDescription="@string/dog_breed"
+        app:layout_constraintBottom_toTopOf="@+id/imageDog6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageDog3"
+        app:layout_constraintTop_toBottomOf="@+id/imageDog2"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageDog5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/d5"
+        android:layout_marginStart="5dp"
+        android:contentDescription="@string/dog_breed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageDog6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageDog3"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageDog6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/d5"
+        android:layout_marginEnd="5dp"
+        android:contentDescription="@string/dog_breed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageDog5"
+        app:layout_constraintTop_toBottomOf="@+id/imageDog4"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvDog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/dog_breed"
+        android:textSize="@dimen/t18"
+        app:layout_constraintEnd_toEndOf="@+id/imageDog1"
+        app:layout_constraintStart_toStartOf="@+id/imageDog1"
+        app:layout_constraintTop_toBottomOf="@+id/imageDog1" />
+
+    <TextView
+        android:id="@+id/tvDog2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/dog_breed"
+        android:textSize="@dimen/t18"
+        app:layout_constraintEnd_toEndOf="@+id/imageDog2"
+        app:layout_constraintStart_toStartOf="@+id/imageDog2"
+        app:layout_constraintTop_toBottomOf="@+id/imageDog2" />
+
+    <TextView
+        android:id="@+id/tvDog3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/dog_breed"
+        android:textSize="@dimen/t18"
+        app:layout_constraintEnd_toEndOf="@+id/imageDog3"
+        app:layout_constraintStart_toStartOf="@+id/imageDog3"
+        app:layout_constraintTop_toBottomOf="@+id/imageDog3" />
+
+    <TextView
+        android:id="@+id/tvDog4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/dog_breed"
+        android:textSize="@dimen/t18"
+        app:layout_constraintEnd_toEndOf="@+id/imageDog4"
+        app:layout_constraintStart_toStartOf="@+id/imageDog4"
+        app:layout_constraintTop_toBottomOf="@+id/imageDog4" />
+
+    <TextView
+        android:id="@+id/tvDog5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/dog_breed"
+        android:textSize="@dimen/t18"
+        app:layout_constraintEnd_toEndOf="@+id/imageDog5"
+        app:layout_constraintStart_toStartOf="@+id/imageDog5"
+        app:layout_constraintTop_toBottomOf="@+id/imageDog5" />
+
+    <TextView
+        android:id="@+id/tvDog6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/dog_breed"
+        android:textSize="@dimen/t18"
+        app:layout_constraintEnd_toEndOf="@+id/imageDog6"
+        app:layout_constraintStart_toStartOf="@+id/imageDog6"
+        app:layout_constraintTop_toBottomOf="@+id/imageDog6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

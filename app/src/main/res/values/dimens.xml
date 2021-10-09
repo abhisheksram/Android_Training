@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="d5">5dp</dimen>
+    <dimen name="t14">14sp</dimen>
+    <dimen name="t16">16sp</dimen>
+    <dimen name="t18">18sp</dimen>
+    <dimen name="t24">24sp</dimen>
+    <dimen name="d10">10dp</dimen>
+    <dimen name="d100">100dp</dimen>
+    <dimen name="t35">35sp</dimen>
+    <dimen name="d15">15sp</dimen>
+</resources>
