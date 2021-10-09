@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DialogsActivity">
+
+    <Button
+        android:id="@+id/btnSimpleDialog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/Coral"
+        android:text="@string/simple_dialog"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnDialogButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnDialogButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/IndianRed"
+        android:text="@string/dialog_with_button"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnSingleChoice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSimpleDialog"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnSingleChoice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/Purple"
+        android:text="@string/single_choice"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnMultiChoice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDialogButton" />
+
+    <Button
+        android:id="@+id/btnMultiChoice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/Blue"
+        android:text="@string/multi_choice"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnCircular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSingleChoice" />
+
+    <Button
+        android:id="@+id/btnCircular"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/DodgerBlue"
+        android:text="@string/circularProgress"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnDatePicker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMultiChoice"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/datePicker"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnTimePicker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCircular"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnTimePicker"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/Green"
+        android:text="@string/timePicker"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnCustom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDatePicker" />
+
+    <Button
+        android:id="@+id/btnBottomDialog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/Orange"
+        android:text="@string/bottomDialog"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCustom"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnCustom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/Coral"
+        android:text="@string/customDialog"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnBottomDialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTimePicker"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306485146366",
+    "project_id": "elegant-rock-328314",
+    "storage_bucket": "elegant-rock-328314.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306485146366:android:9bd798fb5729cc5c046baf",
+        "android_client_info": {
+          "package_name": "com.example.androidtraining"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306485146366-8c7rfegukgi5g17i1ppmomlkugai96p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyVunK909ez12gIKT9fRTcem7tjnuMcdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306485146366-8c7rfegukgi5g17i1ppmomlkugai96p6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

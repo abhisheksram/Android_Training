@@ -1,0 +1,61 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android_task2_2.MainActivity">
+
+    <item
+        android:id="@+id/action_widget"
+        android:orderInCategory="100"
+        android:title="@string/widget"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_RecyclerView"
+        android:orderInCategory="100"
+        android:title="@string/recycler_view"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Dialogs"
+        android:orderInCategory="100"
+        android:title="@string/dialogs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_CustomListView"
+        android:orderInCategory="100"
+        android:title="@string/media"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Maps"
+        android:orderInCategory="100"
+        android:title="@string/maps"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Image"
+        android:orderInCategory="100"
+        android:title="@string/images"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Posts"
+        android:orderInCategory="100"
+        android:title="@string/posts"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Tab"
+        android:orderInCategory="100"
+        android:title="@string/tab_layout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_BottomNavigation"
+        android:orderInCategory="100"
+        android:title="@string/bottom_navigation"
+        app:showAsAction="never" />
+
+
+</menu>
